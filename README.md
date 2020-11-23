@@ -20,3 +20,5 @@ It's important to give proper credit. Add links to any repo that inspired you or
 
 Thanks to Udacity
 
+Additional deocumentation was required to better understand the .gitignore file functionality @ "How to use .gitignore [Git-ing Started with Git Series]", https://www.youtube.com/watch?v=0WfDe51pUU0.
+
