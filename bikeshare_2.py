@@ -117,6 +117,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
+"""main function is where all previously coded functions are being managed in order to run in the proper order:"""
 
 def main():
     while True:
