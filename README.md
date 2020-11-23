@@ -13,8 +13,10 @@ This project is about analyzing bike rental databases that contain infromation f
 In the project we analyzed most commmon start station, end station and routes, most frequent times of travel, average trip duration, and additional informationa bout bikes users.
 
 ### Files used
-Include the files used
+The projects uses: README.md file, chicago.csv, washington.csv, new_york_city.csv
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+
+Thanks to Udacity
 
