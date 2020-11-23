@@ -8,7 +8,9 @@ This README file was created November 22nd, 2020.
 Project 'bikes in various Cities'
 
 ### Description
-Describe what your project is about and what it does
+This project is about analyzing bike rental databases that contain infromation from three differenet cities: Chicago, New York, and Washington.
+
+In the project we analyzed most commmon start station, end station and routes, most frequent times of travel, average trip duration, and additional informationa bout bikes users.
 
 ### Files used
 Include the files used
