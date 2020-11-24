@@ -60,7 +60,7 @@ def time_stats(df):
     # display the most common start hour
 
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print("\nThis took %s seconds of travel." % (time.time() - start_time))
     print('-'*40)
 
 
@@ -79,7 +79,7 @@ def station_stats(df):
     # display most frequent combination of start station and end station trip
 
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print("\nThis took %s seconds of travel." % (time.time() - start_time))
     print('-'*40)
 
 
@@ -124,12 +124,13 @@ def main():
         city, month, day = get_filters()
         df = load_data(city, month, day)
 
-        time_stats(df)
+
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
+        time_stats(df)
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
+        restart = input('\nWould you like to restart? Your options are yes or no.\n')
         if restart.lower() != 'yes':
             break
 
